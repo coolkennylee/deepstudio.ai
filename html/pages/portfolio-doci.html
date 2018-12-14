@@ -1,0 +1,84 @@
+---
+layout: default
+title: About
+---
+<style>
+    .parallax-overlay {
+        background: #a9412a;background: -moz-linear-gradient(-45deg, #a9412a 0%, #c95c5c 100%);background: -webkit-linear-gradient(-45deg, #a9412a 0%, #c95c5c 100%);background: linear-gradient(135deg, #a9412a 0%, #c95c5c 100%);opacity:0.8;
+    }
+</style>
+<!-- Hero (Parallax) and nav -->
+<!-- Fullheight Hero -->
+<div class="hero is-fullheight is-medium parallax is-cover is-relative"  data-background="assets/images/healthcare-program.jpg">
+    
+    {{> navbar-fade-nomenu}}
+
+    <!-- Hero caption -->
+    <div class="hero-body ">
+        <div class="container has-text-centered">
+            <div class="container has-text-centered is-vcentered">
+                <div class="columns">
+                    <div class="column is-4 is-offset-1 has-text-left is-header-caption">
+                        <!--<h1 class="title main-title subpage-title text-bold is-2">
+                            Grid System
+                        </h1>-->
+                        <img src="assets/images/doci-logo.png">
+                        <h2 class="subtitle is-4 light-text pt-20">
+                            The Doc & I solution combines patent-pending technology with on-premise expertise                        </h2>
+                        <br>
+                        <div class="caption-action">
+                            <a href="http://www.docandi.com/" class="button button-cta btn-align light-btn btn-outlined is-bold rounded">View Live Site </a>
+                        </div>
+                    </div>
+                    <div class="column is-offset-1 has-text-centered">
+                        <img src="assets/images/doci-1.png">
+                    </div>
+    
+                </div>
+            </div>
+        </div>
+    </div>
+    <!-- /Hero caption -->
+</div>
+<!-- /Fullheight Hero -->
+
+<!-- Services section -->
+<section class="section section-feature-grey is-medium">
+    <div class="container">
+        <div class="columns">
+            <div class="column is-6 is-offset-1 has-text-left ">
+                <h1 class="title main-title subpage-title text-bold is-2">
+                    Supporting Community Healthcare by Maximizing 340B Participation
+                </h1>
+                <div class="title-divider"></div>
+                <h5 class="subheading is-4 pt-20">
+                    Ruby on Rails&nbsp; /&nbsp; MySQL&nbsp; /&nbsp; AngularJS 2&nbsp; /&nbsp; Linux&nbsp; /&nbsp; HTML5+CSS    
+                </h5>
+                        <br>
+                <p>
+                    Doc & I was referred to us after their internal development team wasn’t able to build a stable API. In just 2 weeks, our team shifted the tech stack to a more scalable solution and rebuilt what had previously taken 6 months. After launching the MVP, Doc & I is steadily onboarding new customers.    
+                </p>
+            </div>
+            <div class="column is-offset-1 has-text-centered">
+                <div class="flex-card simple-shadow">
+                    <div class="card-body">
+                        <div class="content">
+                            <h2 class="no-margin">Team</h2></br>
+                            <p class="has-text-left">
+                            <span class="b-badge badge-outlined is-success">1x</span>&nbsp;&nbsp;System Architect <br/><br/>
+                            <span class="b-badge badge-outlined is-success">1x</span>&nbsp;&nbsp;Ruby on Rails Developer <br/><br/>
+                            <span class="b-badge badge-outlined is-success">2x</span>&nbsp;&nbsp;AngularJS Developers <br/><br/>
+                            <span class="b-badge badge-outlined is-success">1x</span>&nbsp;&nbsp;QA Engineer <br/><br/>
+                            </p>
+                        </div>
+                    </div>  
+                </div>
+            </div>
+        </div>
+    </div>
+</section>
+<!-- /Services section -->
+
+{{> contactform}}
+
+{{> footer-dark}}
